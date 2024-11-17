@@ -1,0 +1,41 @@
+
+  body{
+    min-height: 100vh;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #main-page{
+    display: flex;
+    flex-direction: row;
+  }
+  #main{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+  }
+  nav{
+    background-color: khaki;
+    flex: 0 0 20vw;
+  }
+  header{
+    background-color: aqua;
+    height: 20vh;
+  }
+  footer{
+    background-color: aquamarine;
+    height: 20vh;
+    width: 72rem;
+  }
+  article{
+    background-color: white;
+    flex: 0 0 37vw;
+    
+  }
+  aside{
+    background-color: pink;
+    flex: 0 0 37vw;
+  }
+  header,footer,article,nav,aside{
+    padding: 1em;
+  }

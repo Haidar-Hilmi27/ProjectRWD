@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+#header{
+    background-color: rgb(255, 187, 0);
+    text-align: center;
+    
+}
+.p{
+    background-color: rgb(208, 2, 2);
+}
+.container{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
