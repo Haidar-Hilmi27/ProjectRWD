@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="" id="loginForm" onsubmit="login()">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="text" id="password" name="passsword" required>
+        <br><br>
+        <button type="submit">Login</button>
+        <button type="reset">Batal</button>
+    </form>
+
+<!-- javascript -->
+    <script>
+        function login(){
+            let user = document.getElementById("username").value;
+            let pass = document.getElementById("password").value;
+            let form = document.getElementById("loginForm");
+
+            if (user === "user" && pass === "pass"){
+                alert("login gagal");
+                form.setAttribute("action", "chat.html");
+                form.submit();
+            } else {
+                alert("Login gagal, Silahkan coba lagi");
+            }
+
+        }
+    </script>
+</body>
+</html>
