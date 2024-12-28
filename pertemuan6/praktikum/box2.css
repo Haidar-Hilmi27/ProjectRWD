@@ -1,0 +1,12 @@
+body{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+.foto{
+  margin: 20px;
+}
+.foto img{
+  width: 270px;
+  height: 400px;
+}
